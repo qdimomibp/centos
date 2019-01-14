@@ -1,4 +1,4 @@
-install_all.sh
+#$/bin/sh
 mpv.sh
 nvidia.sh
 rmbeep.sh
