@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ -d "$HOME/bin"]; then
+if [ ! -d "$HOME/bin" ]; then
 	mkdir $HOME/bin
 fi
 cd $HOME/bin
