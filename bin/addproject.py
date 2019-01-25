@@ -1,4 +1,4 @@
-#coding:utfs8
+#coding:utf8
 import os
 import sys
 
@@ -9,7 +9,18 @@ def addProject(projectName):
 	프로젝트 하위 경로를 생성하는 함수
 	"""
 	global ROOT
-	subDirs = [""]
+	subDirs = ["shut"
+				"in"
+				"out"
+				"edit"
+				"asset"
+				"asset/char"
+				"asset/shader"
+				"config"
+				"config/ocio"
+				"config/thumbnail"
+				"doc"
+				"doc/concept"]
 	for s in subDirs:
 		p = "/".join([Root,projectName,s])
 		try:
