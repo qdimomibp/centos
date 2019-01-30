@@ -6,6 +6,7 @@ yum -y install fish
 yum -y install mesa-libGLU #for Nuke and Other Graphics SW
 yum -y install tigervnc
 yum -y install filezilla
+yum -y install ImageMagick
 
 # ripgrep
 yum-config-manager --add-repo=https://copr.fedorainfracloud.org/coprs/carlwgeorge/ripgrep/repo/epel-7/carlwgeorge-ripgrep-epel-7.repo
