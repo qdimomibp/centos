@@ -10,3 +10,8 @@
 ./devtools.sh
 ./handbrake.sh
 ./ocio.sh
+./imageio.sh
+
+#gcc6.x
+scl enable devtoolset-6 ./camke.sh
+scl enable devtoolset-6 ./openexr
